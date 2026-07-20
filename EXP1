@@ -1,0 +1,33 @@
+
+Enter user-name: A193@DB2021
+Enter password:
+
+Connected to:
+Oracle Database 11g Release 11.2.0.1.0 - Production
+
+SQL> create table EMPLOYEE
+  2  (
+  3  regid varchar2(10),
+  4  name char(10),
+  5  dob date,
+  6  city char(10),
+  7  state char(10),
+  8  course char(10),
+  9  year number(10),
+ 10  dept char(10)
+ 11  );
+
+Table created.
+
+SQL> insert into EMPLOYEE values('11249A193','pradeep','1-jan-2007','kadapa','andhra','cse',3,'cse');
+
+1 row created.
+
+SQL> select * from EMPLOYEE;
+
+REGID      NAME       DOB       CITY       STATE      COURSE           YEAR
+---------- ---------- --------- ---------- ---------- ---------- ----------
+DEPT
+----------
+11249A193  pradeep    01-JAN-07 kadapa     andhra     cse                 3
+cse
